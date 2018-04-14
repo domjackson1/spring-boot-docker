@@ -4,6 +4,9 @@
 bin
 build
 target
+out
 .idea
+*.iml
 *.xml
 .gradle
+.DS_Store
