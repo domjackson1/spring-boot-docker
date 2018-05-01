@@ -1,6 +1,6 @@
 # spring-boot-docker
 
-Really simple Spring Boot RESTful web service with a Dockerfile.
+Really simple Spring Boot RESTful web service with a Dockerfile and accompanying Cucumber tests.
 
 https://hub.docker.com/r/domjackson1/spring-boot-docker
 
@@ -15,9 +15,9 @@ $ ./gradlew build
 $ ./gradlew bootRun
 ```
 
-## Run tests
+## Run Cucumber tests
 ```sh
-$ ./gradlew test
+$ ./gradlew cucumber
 ```
 
 
